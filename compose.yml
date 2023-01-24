@@ -1,0 +1,10 @@
+services:
+  leapfrog:
+    container_name: leapfrog
+    build: .
+    volumes:
+       - .:/workspace
+    working_dir: /workspace
+    tty: true
+    ports:
+      - "8080:8080"

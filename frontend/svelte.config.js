@@ -1,5 +1,6 @@
 // import adapter from '@sveltejs/adapter-auto';
 import adapter from "@sveltejs/adapter-static";
+import { vitePreprocess } from "@sveltejs/kit/vite";
 
 const dev = process.argv.includes('dev');
 
@@ -10,7 +11,8 @@ const config = {
 		paths: {
 			base: dev ? '' : '/LeapFrog.git'
 		}
-	}
+	},
+	preprocess: vitePreprocess()
 };
 
 export default config;

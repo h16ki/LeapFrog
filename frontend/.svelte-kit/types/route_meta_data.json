@@ -1,0 +1,18 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/blog": [
+		"src/routes/+layout.js"
+	],
+	"/blog/integrate": [
+		"src/routes/+layout.js"
+	],
+	"/blog/integrate/foo": [
+		"src/routes/+layout.js"
+	],
+	"/sample": [
+		"src/routes/+layout.js"
+	]
+}
